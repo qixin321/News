@@ -1,0 +1,156 @@
+ 
+ /*顶部导航样式*/
+  html{
+	 font-size:20px;
+  }
+
+ #nav{
+		width:18.75rem;
+		height:auto;
+		line-height:auto;
+    position: fixed;
+    top:0;
+    left:0;
+	}
+ #nav>#navtop{
+     width:18.75rem;
+     height:2.5rem;
+     background:#d43d3d; 
+     position: relative;
+  }
+  #nav>#navtop>span{
+  	 color:white;
+  	 font-size:1.0rem;
+  	 font-weight:bold;
+  	 line-height:2.5rem;
+  	 margin-left:1rem;
+  	 float: left;
+  }
+  #nav>#navtop>form{
+    width:11rem;
+    height:2.5rem;
+  	float: left;
+  	margin-left:1rem;
+    display: inline;
+  }
+   #nav>#navtop>form>input{
+     font-size:0.6rem;
+     float: left;
+     margin-top:0.7rem;
+     border:0;
+   	 border-radius:0.3rem;
+     outline:none;
+     background-image:url('../../static/imgs/search.png');
+     background-repeat: no-repeat;
+     background-position: left;
+     padding: 0.24rem 1.5rem;
+   }
+   #nav>#navbar{
+   	 width: 18.75rem;
+   	 height:1.8rem;
+   	 line-height:1.8rem;
+   	 background:#F4F5F6;
+   }
+	#nav>#navbar>li{
+		float: left;
+		width: 16.6%;
+		text-align: center;
+	}
+	#nav>#navbar>li a{
+		font-size:0.9rem;
+		color:black;
+	}
+
+	#nav>#navbar>li a.router-link-active{
+		color:red;
+	}
+
+  /*页面内容样式开始*/
+ .container{
+    clear: both;
+    margin-top:4.1rem;
+    margin-bottom: 1.5rem;
+  }
+  .container>.wrap{
+    width: 95%;
+    height: 6rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+  }
+  .container>.wrap>.content{
+    width: 94%;
+    height: 6rem;
+    /*background: red;*/
+    letter-spacing: 0.05rem;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+    /*padding-bottom: 0.6rem;*/
+  }
+  .container>.wrap>.content>a{
+    font-size:0.9rem;
+    color: #3E3E3E;
+    text-decoration: none;
+    line-height: 1.5rem;
+    height:3rem;
+    overflow: hidden;
+  }
+  .container>.wrap>.content>p{
+    margin-top: 0.8rem;
+    font-size: 0.6rem;
+    color: #9E9E9E;
+    border-bottom: 0.5rem;
+  }
+  .container>.wrap>.contentpic{
+    width: 94%;
+    height: 5rem;
+    /*background: red;*/
+    letter-spacing: 0.05rem;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+  }
+  .container>.wrap>.contentpic>.left{
+    width: 64%;
+    height: 100%;
+    float: left;
+  }
+  .container>.wrap>.contentpic>.left>a{
+    font-size:0.9rem;
+    color: #3E3E3E;
+    text-decoration: none;
+    line-height: 1.5rem;
+    height:3rem;
+    overflow: hidden;
+    display: block;
+  }
+  .container>.wrap>.contentpic>.left>p{
+    margin-top: 0.8rem;
+    font-size: 0.6rem;
+    color: #9E9E9E;  
+  }
+  .container>.wrap>.contentpic>.right{
+    width: 30%;
+    height:100%;
+    float:right;
+  }
+  .container>.wrap>.contentpic>.right>img{
+    display: block;
+    width:100%;
+    height: 92%;
+  }
+  .container>h2{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  /*加载图片*/
+ .load>span{
+    display: block;
+    position:fixed;
+    top:4.9rem;
+    left:40%;
+    font-size:0.8rem;
+    color: gray;
+ }
